@@ -1,0 +1,8 @@
+.Profile {
+  grid-area: p;
+  background-color: rgb(211, 215, 226);
+}
+
+.Profile img {
+  width: 100%;
+}
