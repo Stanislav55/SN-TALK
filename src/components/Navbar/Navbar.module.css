@@ -1,0 +1,18 @@
+.nav {
+  grid-area: n;
+  background-color:#97D1E3;  
+}
+
+.item {
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20px;
+  line-height: 50px;
+  
+}
+
+a {
+  text-decoration: none;
+  color: #f0f3f5;
+}

@@ -2,8 +2,7 @@ import React from 'react';
 import s from './Navbar.module.css';
 
 const Navbar = () => {
-    return (
-    <Navbar className='Navbar'>
+    return <nav className={s.nav}>
         <div className={s.item}>
             <a href="#s">Profile</a>
         </div>
@@ -19,7 +18,7 @@ const Navbar = () => {
         <div className={s.item}>
             <a href="#s">Settings</a>
         </div>
-    </Navbar>)
+    </nav>
 }
 
 export default Navbar;
