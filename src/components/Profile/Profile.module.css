@@ -1,8 +1,3 @@
-.Profile {
-  grid-area: p;
-  background-color: rgb(211, 215, 226);
-}
-
-.Profile img {
+.profile img {
   width: 100%;
 }

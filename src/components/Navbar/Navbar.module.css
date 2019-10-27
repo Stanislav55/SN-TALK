@@ -1,18 +1,14 @@
 .nav {
   grid-area: n;
-  background-color:#97D1E3;  
+  background-color:#97D1E3;
+  padding: 20px;  
 }
 
-.item {
-  margin-left: 10px;
-  text-transform: uppercase;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-	font-size: 20px;
-  line-height: 50px;
-  
-}
-
-a {
+.item a {
+  color: aliceblue;
   text-decoration: none;
-  color: #f0f3f5;
+}
+
+.item a.active {
+  color: #043756;
 }
